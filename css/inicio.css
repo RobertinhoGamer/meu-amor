@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'test2';
+  src: url('..//font/test2.otf');
+}
+
+@font-face {
+  font-family: 'test1';
+  src: url('..//font/test1.ttf');
+}
+
+@font-face {
+  font-family: 'test3';
+  src: url('..//font/test3.ttf');
+}
+
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+#click {
+    color: skyblue;
+    font-family: "test2";
+    padding: 20px 40px;
+    font-size: 50px;
+    width: 125px;
+    height: 70px;
+    background-color: rgb(32, 32, 32);
+    border: 3px solid rgb(157, 224, 250);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
