@@ -108,8 +108,11 @@ h1 {
   bottom: 0;
   color: white;
   opacity: 0.8;
-  animation: flutuar 8s linear infinite;
   left: 0;
+}
+
+.coluna-coracoes span.animar {
+  animation: flutuar 8s linear forwards;
 }
 
 @keyframes flutuar {
@@ -142,8 +145,6 @@ h1 {
   #ms, #msin {
     font-size: 16px;
     padding: 10px;
-    position: relative;
-    z-index: 10;        
   }
 
   iframe {
